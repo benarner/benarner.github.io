@@ -1,0 +1,1428 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>西西人体下部毛毛必应_影像内容社区|品牌官网</title>
+<meta name="description" content="西西人体下部毛毛必应品牌官方网站，深耕自然影像与身体美学内容生态，为创作者与企业搭建高品质视频社区，提供原创高清内容和专业创作支持。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1117'/%3E%3Cpath d='M16 18h10v28H16zM34 18h10l6 28H40l-2-10h-6l-2 10h-4z' fill='%23c8ff3d'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --xixi-bg:#0e1015;
+    --xixi-bg-2:#161922;
+    --xixi-card:#1b1f2a;
+    --xixi-line:#2a2f3d;
+    --xixi-text:#e8eaf0;
+    --xixi-muted:#9ba2b3;
+    --xixi-accent:#c8ff3d;
+    --xixi-accent-2:#48d5ff;
+    --xixi-warn:#ff7a59;
+    --xixi-radius:16px;
+    --xixi-head-h:138px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 600px at 85% -180px, rgba(72,213,255,.10), transparent 60%),
+      radial-gradient(900px 500px at 5% 0%, rgba(200,255,61,.08), transparent 55%),
+      var(--xixi-bg);
+    color:var(--xixi-text);
+    font-family:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  h1,h2,h3,h4{margin:0;line-height:1.28;font-weight:700;}
+  p{margin:0;}
+  ul{margin:0;padding:0;list-style:none;}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+
+  .xixi-skip{
+    position:absolute;left:-9999px;top:0;padding:10px 16px;background:var(--xixi-accent);
+    color:#0e1015;z-index:999;border-radius:0 0 10px 0;
+  }
+  .xixi-skip:focus{left:0;}
+
+  /* ============ 吸顶公告 + 页头 ============ */
+  .xixi-sticky{
+    position:sticky;top:0;z-index:90;
+    backdrop-filter:blur(14px);
+    background:rgba(12,14,19,.90);
+    border-bottom:1px solid var(--xixi-line);
+  }
+  .xixi-notice{
+    display:flex;align-items:center;gap:10px;
+    padding:8px 22px;
+    font-size:13px;
+    background:linear-gradient(90deg,rgba(200,255,61,.16),rgba(72,213,255,.10) 60%,transparent);
+    border-bottom:1px solid rgba(200,255,61,.18);
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  .xixi-notice-badge{
+    flex:none;font-size:11px;letter-spacing:.14em;padding:2px 9px;border-radius:999px;
+    background:var(--xixi-accent);color:#0e1015;font-weight:800;
+  }
+  .xixi-notice-track{
+    display:flex;gap:44px;align-items:center;
+    animation:xixi-marquee 34s linear infinite;
+    will-change:transform;
+  }
+  .xixi-notice-track span{color:#d6dae5;}
+  .xixi-notice-track b{color:var(--xixi-accent);font-weight:600;}
+  @keyframes xixi-marquee{
+    from{transform:translateX(0);}
+    to{transform:translateX(-50%);}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .xixi-notice-track{animation:none;}
+  }
+
+  .xixi-header{display:flex;align-items:center;gap:20px;padding:12px 22px;}
+  .xixi-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:.02em;flex:none;}
+  .xixi-logo-mark{
+    width:36px;height:36px;border-radius:10px;
+    background:linear-gradient(145deg,var(--xixi-accent),#79e06b 55%,var(--xixi-accent-2));
+    color:#0e1015;display:grid;place-items:center;font-size:17px;font-weight:900;
+  }
+  .xixi-logo small{display:block;font-size:10px;color:var(--xixi-muted);font-weight:500;letter-spacing:.2em;}
+
+  .xixi-nav{display:flex;gap:4px;flex:1;min-width:0;}
+  .xixi-nav a{
+    padding:7px 12px;border-radius:9px;font-size:14px;color:#cfd4df;
+    transition:background .2s,color .2s;white-space:nowrap;
+  }
+  .xixi-nav a:hover, .xixi-nav a:focus-visible{background:rgba(200,255,61,.12);color:var(--xixi-accent);}
+
+  .xixi-search{position:relative;flex:none;width:230px;}
+  .xixi-search input{
+    width:100%;padding:8px 12px 8px 34px;border-radius:10px;
+    background:var(--xixi-bg-2);border:1px solid var(--xixi-line);
+    color:var(--xixi-text);font-size:13px;outline:none;transition:border-color .2s;
+  }
+  .xixi-search input:focus{border-color:var(--xixi-accent);}
+  .xixi-search::before{
+    content:"⌕";position:absolute;left:11px;top:50%;transform:translateY(-52%);
+    color:var(--xixi-muted);font-size:17px;pointer-events:none;
+  }
+  .xixi-search-hint{
+    position:absolute;left:0;right:0;top:calc(100% + 8px);
+    background:var(--xixi-card);border:1px solid var(--xixi-line);border-radius:12px;
+    padding:8px;font-size:12.5px;color:var(--xixi-muted);display:none;z-index:30;
+    box-shadow:0 18px 40px rgba(0,0,0,.5);
+  }
+  .xixi-search-hint.xixi-open{display:block;}
+  .xixi-search-hint b{color:var(--xixi-accent);}
+
+  .xixi-burger{
+    display:none;flex:none;width:40px;height:40px;border-radius:10px;
+    border:1px solid var(--xixi-line);background:var(--xixi-bg-2);
+    place-items:center;font-size:17px;color:var(--xixi-text);
+  }
+  .xixi-mobile-nav{display:none;border-top:1px solid var(--xixi-line);padding:10px 22px 16px;}
+  .xixi-mobile-nav.xixi-open{display:block;}
+  .xixi-mobile-nav a{display:block;padding:9px 4px;font-size:15px;color:#d3d8e2;border-bottom:1px dashed var(--xixi-line);}
+  .xixi-mobile-nav a:last-child{border-bottom:none;}
+
+  /* ============ 通用容器 ============ */
+  .xixi-wrap{max-width:1240px;margin:0 auto;padding:0 22px;}
+  .xixi-section{padding:56px 0 8px;scroll-margin-top:calc(var(--xixi-head-h) + 14px);}
+  .xixi-kicker{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:11.5px;letter-spacing:.22em;color:var(--xixi-accent);
+    text-transform:uppercase;margin-bottom:12px;
+  }
+  .xixi-kicker::before{content:"";width:22px;height:1px;background:var(--xixi-accent);}
+  .xixi-h2{font-size:clamp(23px,3.2vw,33px);letter-spacing:-.01em;}
+  .xixi-h2 em{font-style:normal;color:var(--xixi-accent);}
+  .xixi-lead{color:var(--xixi-muted);font-size:14.5px;margin-top:10px;max-width:74ch;}
+  .xixi-meta{font-size:12.5px;color:var(--xixi-muted);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;}
+  .xixi-tag{
+    display:inline-block;font-size:11.5px;padding:2px 9px;border-radius:999px;
+    background:rgba(72,213,255,.12);color:#9fe6ff;border:1px solid rgba(72,213,255,.22);
+    white-space:nowrap;
+  }
+  .xixi-tag--lime{background:rgba(200,255,61,.12);color:#dfff8f;border-color:rgba(200,255,61,.28);}
+  .xixi-btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:10px 18px;border-radius:11px;font-size:14px;font-weight:600;
+    border:1px solid var(--xixi-line);background:var(--xixi-bg-2);
+    transition:transform .18s,background .2s,border-color .2s,color .2s;
+  }
+  .xixi-btn:hover{transform:translateY(-2px);border-color:var(--xixi-accent);color:var(--xixi-accent);}
+  .xixi-btn--accent{background:var(--xixi-accent);color:#0e1015;border-color:var(--xixi-accent);}
+  .xixi-btn--accent:hover{background:#d8ff6a;color:#0e1015;}
+  .xixi-btn--ghost{background:transparent;}
+  .xixi-btn--sm{padding:6px 12px;font-size:12.5px;border-radius:9px;}
+
+  /* ============ 首屏：左文右侧大图 + 数据条 ============ */
+  .xixi-hero{padding:46px 0 10px;scroll-margin-top:calc(var(--xixi-head-h) + 10px);}
+  .xixi-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:44px;align-items:center;}
+  .xixi-hero h1{
+    font-size:clamp(30px,4.6vw,50px);letter-spacing:-.02em;line-height:1.14;
+    margin:12px 0 0;
+  }
+  .xixi-hero h1 span{display:block;font-size:clamp(15px,1.7vw,19px);font-weight:600;letter-spacing:.06em;color:var(--xixi-accent);margin-top:12px;}
+  .xixi-hero-desc{color:#c7cddb;font-size:15px;margin-top:20px;max-width:56ch;}
+  .xixi-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px;}
+  .xixi-hero-figure{
+    position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--xixi-line);
+    box-shadow:0 30px 80px rgba(0,0,0,.55);
+    aspect-ratio:16/11;background:#12151d;
+  }
+  .xixi-hero-figure img{width:100%;height:100%;object-fit:cover;}
+  .xixi-hero-figure figcaption{
+    position:absolute;left:0;right:0;bottom:0;padding:36px 18px 14px;
+    background:linear-gradient(to top,rgba(9,11,16,.94),transparent);
+    font-size:12.5px;color:#c3cad8;
+  }
+  .xixi-hero-live{
+    position:absolute;top:14px;left:14px;display:flex;align-items:center;gap:7px;
+    background:rgba(9,11,16,.78);border:1px solid rgba(200,255,61,.4);
+    padding:5px 11px;border-radius:999px;font-size:11.5px;color:var(--xixi-accent);
+    backdrop-filter:blur(6px);
+  }
+  .xixi-hero-live i{width:7px;height:7px;border-radius:50%;background:var(--xixi-accent);box-shadow:0 0 0 0 rgba(200,255,61,.7);animation:xixi-pulse 2s infinite;}
+  @keyframes xixi-pulse{70%{box-shadow:0 0 0 9px rgba(200,255,61,0);}100%{box-shadow:0 0 0 0 rgba(200,255,61,0);}}
+
+  .xixi-stats{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:30px;
+  }
+  .xixi-stat{
+    border:1px solid var(--xixi-line);border-radius:14px;padding:14px 16px;
+    background:linear-gradient(160deg,rgba(200,255,61,.07),rgba(22,25,34,.6));
+  }
+  .xixi-stat b{display:block;font-size:clamp(20px,2.6vw,27px);color:var(--xixi-accent);letter-spacing:-.02em;}
+  .xixi-stat span{font-size:12px;color:var(--xixi-muted);}
+
+  /* ============ 品牌简介 ============ */
+  .xixi-about{
+    display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:34px;
+    padding:34px;border-radius:22px;border:1px solid var(--xixi-line);
+    background:linear-gradient(170deg,rgba(27,31,42,.9),rgba(16,18,25,.85));
+    margin-top:30px;
+  }
+  .xixi-about h2{font-size:clamp(20px,2.4vw,25px);}
+  .xixi-about p{color:#c4cad8;font-size:14.5px;margin-top:14px;}
+  .xixi-about-facts{display:grid;gap:12px;align-content:start;}
+  .xixi-fact{
+    border-left:2px solid var(--xixi-accent-2);padding:8px 0 8px 14px;
+    font-size:13.5px;color:#c9cfdc;
+  }
+  .xixi-fact b{color:var(--xixi-accent);font-weight:700;}
+
+  /* ============ 焦点内容 + 视频列表 ============ */
+  .xixi-focus-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:26px;margin-top:26px;}
+  .xixi-focus-card{
+    border-radius:20px;overflow:hidden;border:1px solid var(--xixi-line);
+    background:var(--xixi-card);display:flex;flex-direction:column;
+  }
+  .xixi-focus-card figure{margin:0;position:relative;aspect-ratio:16/9;background:#12151d;}
+  .xixi-focus-card figure img{width:100%;height:100%;object-fit:cover;}
+  .xixi-play{
+    position:absolute;right:12px;bottom:12px;width:44px;height:44px;border-radius:50%;
+    display:grid;place-items:center;background:rgba(200,255,61,.9);color:#0e1015;font-size:15px;
+    transition:transform .2s;
+  }
+  .xixi-play:hover{transform:scale(1.08);}
+  .xixi-focus-body{padding:18px 20px 20px;}
+  .xixi-focus-body h3{font-size:19px;margin-top:8px;}
+  .xixi-focus-body p{color:var(--xixi-muted);font-size:13.5px;margin-top:9px;}
+
+  .xixi-video-list{display:grid;gap:12px;min-width:0;}
+  .xixi-video-item{
+    display:grid;grid-template-columns:54px minmax(0,1fr);gap:14px;
+    border:1px solid var(--xixi-line);border-radius:14px;padding:13px 15px;
+    background:rgba(22,25,34,.7);transition:border-color .2s,transform .2s,background .2s;
+  }
+  .xixi-video-item:hover{border-color:rgba(200,255,61,.5);transform:translateX(3px);background:rgba(27,31,42,.95);}
+  .xixi-video-rank{
+    font-size:18px;font-weight:800;color:var(--xixi-accent-2);
+    display:grid;place-items:center;border-right:1px solid var(--xixi-line);
+    font-variant-numeric:tabular-nums;
+  }
+  .xixi-video-body{min-width:0;}
+  .xixi-video-body h4{font-size:15px;line-height:1.45;}
+  .xixi-video-body p{font-size:12.8px;color:var(--xixi-muted);margin-top:5px;}
+  .xixi-video-foot{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:9px;font-size:12px;color:var(--xixi-muted);}
+  .xixi-video-actions{display:flex;gap:8px;margin-left:auto;}
+  .xixi-like, .xixi-fav{
+    display:inline-flex;align-items:center;gap:5px;font-size:12px;
+    padding:3px 9px;border-radius:8px;border:1px solid var(--xixi-line);
+    background:rgba(14,16,21,.6);transition:color .2s,border-color .2s;color:#c2c8d6;
+  }
+  .xixi-like:hover,.xixi-fav:hover{border-color:var(--xixi-accent);color:var(--xixi-accent);}
+  .xixi-like.xixi-on{color:var(--xixi-accent);border-color:var(--xixi-accent);}
+  .xixi-fav.xixi-on{color:var(--xixi-warn);border-color:var(--xixi-warn);}
+
+  /* ============ 专题 ============ */
+  .xixi-topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:26px;}
+  .xixi-topic{
+    border:1px solid var(--xixi-line);border-radius:18px;overflow:hidden;background:var(--xixi-card);
+    display:flex;flex-direction:column;
+  }
+  .xixi-topic figure{margin:0;aspect-ratio:16/9;background:#12151d;overflow:hidden;}
+  .xixi-topic figure img{width:100%;height:100%;object-fit:cover;transition:transform .5s;}
+  .xixi-topic:hover figure img{transform:scale(1.05);}
+  .xixi-topic-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:9px;flex:1;}
+  .xixi-topic-body h3{font-size:16.5px;}
+  .xixi-topic-body p{font-size:13px;color:var(--xixi-muted);}
+  .xixi-topic-items{margin-top:auto;display:grid;gap:6px;padding-top:10px;border-top:1px dashed var(--xixi-line);font-size:12.5px;color:#c3c9d7;}
+  .xixi-topic-items li::before{content:"▸ ";color:var(--xixi-accent);}
+  .xixi-status{
+    display:inline-flex;align-items:center;gap:6px;font-size:11.5px;color:#b9ff7a;
+  }
+  .xixi-status i{width:6px;height:6px;border-radius:50%;background:#b9ff7a;}
+
+  /* ============ 关键词解析 ============ */
+  .xixi-essay{
+    margin-top:26px;border:1px solid var(--xixi-line);border-radius:22px;
+    padding:32px;background:linear-gradient(180deg,rgba(22,25,34,.75),rgba(14,16,21,.6));
+  }
+  .xixi-essay-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px;}
+  .xixi-essay h3{font-size:16.5px;margin-top:22px;color:var(--xixi-accent);}
+  .xixi-essay h3:first-child{margin-top:0;}
+  .xixi-essay p{font-size:14px;color:#c6ccda;margin-top:9px;}
+  .xixi-essay-aside{
+    border-radius:16px;border:1px solid var(--xixi-line);padding:20px;
+    background:radial-gradient(400px 220px at 100% 0%,rgba(72,213,255,.12),transparent 70%);
+  }
+  .xixi-essay-aside h4{font-size:14px;letter-spacing:.06em;color:var(--xixi-accent-2);}
+  .xixi-essay-aside ul{display:grid;gap:10px;margin-top:14px;font-size:13px;color:#c0c7d6;}
+  .xixi-essay-aside li b{color:var(--xixi-accent);}
+
+  /* ============ 创作者矩阵（双列简介） ============ */
+  .xixi-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:26px;}
+  .xixi-author{
+    display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;
+    border:1px solid var(--xixi-line);border-radius:18px;padding:18px;
+    background:var(--xixi-card);transition:border-color .2s,transform .2s;
+  }
+  .xixi-author:hover{border-color:rgba(72,213,255,.5);transform:translateY(-3px);}
+  .xixi-avatar{
+    width:64px;height:64px;border-radius:50%;overflow:hidden;flex:none;
+    border:2px solid rgba(200,255,61,.4);
+  }
+  .xixi-avatar svg{width:100%;height:100%;display:block;}
+  .xixi-author h3{font-size:16px;}
+  .xixi-author .xixi-role{font-size:12px;color:var(--xixi-accent-2);margin-top:2px;}
+  .xixi-author p{font-size:13px;color:var(--xixi-muted);margin-top:8px;}
+  .xixi-author-foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px;font-size:12px;color:var(--xixi-muted);}
+  .xixi-author-more{margin-left:auto;font-size:12px;color:var(--xixi-accent);border-bottom:1px dashed rgba(200,255,61,.5);}
+
+  /* ============ 评论（双列短评 + 评分摘要） ============ */
+  .xixi-review-wrap{display:grid;grid-template-columns:minmax(0,1fr) 268px;gap:22px;margin-top:26px;}
+  .xixi-reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;}
+  .xixi-review{
+    border:1px solid var(--xixi-line);border-radius:14px;padding:15px 16px;
+    background:rgba(22,25,34,.72);display:flex;flex-direction:column;gap:8px;
+  }
+  .xixi-review-head{display:flex;align-items:center;gap:9px;font-size:13px;}
+  .xixi-review-head i{
+    width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+    font-style:normal;font-size:12px;font-weight:700;color:#0e1015;background:var(--xixi-accent-2);flex:none;
+  }
+  .xixi-review-head b{font-weight:600;}
+  .xixi-review-head em{font-style:normal;color:var(--xixi-muted);font-size:11.5px;margin-left:auto;}
+  .xixi-review p{font-size:13px;color:#c4cad8;}
+  .xixi-score{
+    border:1px solid var(--xixi-line);border-radius:18px;padding:20px;
+    background:linear-gradient(160deg,rgba(200,255,61,.09),rgba(22,25,34,.7));
+    align-self:start;
+  }
+  .xixi-score-num{font-size:44px;font-weight:800;color:var(--xixi-accent);line-height:1;}
+  .xixi-score-num small{font-size:14px;color:var(--xixi-muted);font-weight:500;}
+  .xixi-score p{font-size:12.5px;color:var(--xixi-muted);margin-top:8px;}
+  .xixi-bars{display:grid;gap:8px;margin-top:16px;}
+  .xixi-bar{display:grid;grid-template-columns:52px minmax(0,1fr) 30px;gap:8px;align-items:center;font-size:11.5px;color:var(--xixi-muted);}
+  .xixi-bar-track{height:6px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden;}
+  .xixi-bar-track i{display:block;height:100%;background:linear-gradient(90deg,var(--xixi-accent),var(--xixi-accent-2));border-radius:999px;}
+
+  /* ============ 图文索引 ============ */
+  .xixi-index-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:26px;}
+  .xixi-index-card{
+    border:1px solid var(--xixi-line);border-radius:16px;overflow:hidden;background:var(--xixi-card);
+    display:flex;flex-direction:column;
+  }
+  .xixi-index-card figure{margin:0;aspect-ratio:16/10;overflow:hidden;background:#12151d;}
+  .xixi-index-card figure img{width:100%;height:100%;object-fit:cover;}
+  .xixi-index-card div{padding:14px 16px 16px;}
+  .xixi-index-card h3{font-size:15px;}
+  .xixi-index-card p{font-size:12.5px;color:var(--xixi-muted);margin-top:6px;}
+
+  /* ============ 动态 / 合作 / FAQ / 投稿 ============ */
+  .xixi-support{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;margin-top:26px;}
+  .xixi-panel{
+    border:1px solid var(--xixi-line);border-radius:18px;padding:22px;background:var(--xixi-card);
+  }
+  .xixi-panel h2{font-size:19px;}
+  .xixi-timeline{display:grid;gap:14px;margin-top:16px;}
+  .xixi-timeline li{
+    display:grid;grid-template-columns:78px minmax(0,1fr);gap:12px;font-size:13px;
+    padding-bottom:12px;border-bottom:1px dashed var(--xixi-line);
+  }
+  .xixi-timeline li:last-child{border-bottom:none;padding-bottom:0;}
+  .xixi-timeline time{color:var(--xixi-accent-2);font-size:12px;font-variant-numeric:tabular-nums;}
+  .xixi-timeline b{display:block;color:#e3e7ef;font-weight:600;}
+  .xixi-timeline span{color:var(--xixi-muted);font-size:12.5px;}
+
+  .xixi-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px;}
+  .xixi-partner{
+    border:1px solid var(--xixi-line);border-radius:12px;padding:11px 13px;
+    font-size:13px;color:#cbd1de;display:flex;align-items:center;gap:9px;
+  }
+  .xixi-partner i{width:9px;height:9px;border-radius:3px;background:var(--xixi-accent-2);flex:none;}
+
+  .xixi-faq{display:grid;gap:10px;margin-top:16px;}
+  .xixi-faq details{
+    border:1px solid var(--xixi-line);border-radius:12px;padding:0 14px;
+    background:rgba(14,16,21,.5);
+  }
+  .xixi-faq summary{
+    list-style:none;cursor:pointer;padding:12px 0;font-size:13.5px;font-weight:600;
+    display:flex;align-items:center;gap:10px;
+  }
+  .xixi-faq summary::-webkit-details-marker{display:none;}
+  .xixi-faq summary::before{content:"＋";color:var(--xixi-accent);font-weight:700;}
+  .xixi-faq details[open] summary::before{content:"－";}
+  .xixi-faq p{font-size:13px;color:var(--xixi-muted);padding-bottom:13px;}
+
+  .xixi-cta{
+    margin-top:26px;border-radius:20px;border:1px solid rgba(200,255,61,.3);
+    padding:26px 28px;display:flex;flex-wrap:wrap;align-items:center;gap:18px;
+    background:linear-gradient(120deg,rgba(200,255,61,.14),rgba(72,213,255,.08) 70%,transparent);
+  }
+  .xixi-cta h2{font-size:21px;}
+  .xixi-cta p{font-size:13px;color:#c7cddb;margin-top:4px;}
+  .xixi-cta-actions{margin-left:auto;display:flex;flex-wrap:wrap;gap:10px;}
+
+  /* ============ 页脚 ============ */
+  .xixi-footer{margin-top:60px;border-top:1px solid var(--xixi-line);background:rgba(10,12,17,.8);}
+  .xixi-footer-grid{
+    display:grid;grid-template-columns:1.4fr 1fr 1fr 1.1fr;gap:28px;padding:44px 0 30px;
+  }
+  .xixi-footer h4{font-size:13px;letter-spacing:.16em;color:var(--xixi-accent);margin-bottom:13px;}
+  .xixi-footer p, .xixi-footer li{font-size:12.8px;color:#a9b0c1;}
+  .xixi-footer li{padding:4px 0;}
+  .xixi-footer-col a:hover{color:var(--xixi-accent);}
+  .xixi-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+  .xixi-footer-bottom{
+    border-top:1px solid var(--xixi-line);padding:16px 0 26px;
+    display:flex;flex-wrap:wrap;gap:8px 20px;font-size:12px;color:#7f8798;
+  }
+  .xixi-footer-bottom span:last-child{margin-left:auto;}
+
+  /* ============ 弹窗 / Toast / 回顶 ============ */
+  .xixi-modal{
+    position:fixed;inset:0;z-index:120;display:none;place-items:center;padding:20px;
+    background:rgba(6,8,12,.78);backdrop-filter:blur(6px);
+  }
+  .xixi-modal.xixi-open{display:grid;}
+  .xixi-modal-box{
+    width:min(520px,100%);border-radius:18px;border:1px solid var(--xixi-line);
+    background:var(--xixi-card);padding:24px;max-height:86vh;overflow:auto;
+  }
+  .xixi-modal-box h3{font-size:18px;}
+  .xixi-modal-box p{font-size:13.5px;color:var(--xixi-muted);margin-top:10px;}
+  .xixi-modal-box .xixi-modal-foot{margin-top:18px;display:flex;gap:10px;justify-content:flex-end;}
+  .xixi-field{display:grid;gap:6px;margin-top:14px;font-size:12.5px;color:var(--xixi-muted);}
+  .xixi-field input,.xixi-field textarea,.xixi-field select{
+    padding:9px 12px;border-radius:10px;background:var(--xixi-bg-2);
+    border:1px solid var(--xixi-line);color:var(--xixi-text);font-size:13px;font-family:inherit;outline:none;
+  }
+  .xixi-field input:focus,.xixi-field textarea:focus,.xixi-field select:focus{border-color:var(--xixi-accent);}
+
+  .xixi-toast{
+    position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+    background:var(--xixi-accent);color:#0e1015;font-size:13px;font-weight:600;
+    padding:10px 20px;border-radius:999px;opacity:0;pointer-events:none;
+    transition:opacity .25s,transform .25s;z-index:200;max-width:88vw;text-align:center;
+  }
+  .xixi-toast.xixi-show{opacity:1;transform:translate(-50%,0);}
+
+  .xixi-top{
+    position:fixed;right:20px;bottom:24px;width:44px;height:44px;border-radius:12px;
+    display:grid;place-items:center;background:var(--xixi-accent);color:#0e1015;font-size:16px;
+    opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:100;
+    box-shadow:0 12px 30px rgba(200,255,61,.25);
+  }
+  .xixi-top.xixi-show{opacity:1;pointer-events:auto;transform:translateY(-3px);}
+
+  /* ============ 响应式 ============ */
+  @media (max-width:1080px){
+    .xixi-hero-grid{grid-template-columns:1fr;gap:28px;}
+    .xixi-about{grid-template-columns:1fr;padding:26px;}
+    .xixi-focus-grid{grid-template-columns:1fr;}
+    .xixi-topics{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .xixi-essay-grid{grid-template-columns:1fr;}
+    .xixi-index-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .xixi-support{grid-template-columns:1fr;}
+    .xixi-footer-grid{grid-template-columns:1fr 1fr;}
+    .xixi-review-wrap{grid-template-columns:1fr;}
+  }
+  @media (max-width:820px){
+    .xixi-nav{display:none;}
+    .xixi-search{width:100%;order:3;flex:1 1 100%;}
+    .xixi-header{flex-wrap:wrap;gap:12px;}
+    .xixi-burger{display:grid;}
+    .xixi-authors{grid-template-columns:1fr;}
+    .xixi-reviews{grid-template-columns:1fr;}
+    .xixi-stats{grid-template-columns:1fr 1fr;}
+    .xixi-topics{grid-template-columns:1fr;}
+    .xixi-index-grid{grid-template-columns:1fr;}
+  }
+  @media (max-width:560px){
+    .xixi-wrap{padding:0 16px;}
+    .xixi-notice{padding:8px 16px;}
+    .xixi-section{padding:42px 0 6px;}
+    .xixi-stats{grid-template-columns:1fr;}
+    .xixi-hero-actions .xixi-btn{flex:1 1 100%;justify-content:center;}
+    .xixi-video-item{grid-template-columns:40px minmax(0,1fr);}
+    .xixi-video-rank{font-size:15px;}
+    .xixi-partners{grid-template-columns:1fr;}
+    .xixi-footer-grid{grid-template-columns:1fr;}
+    .xixi-footer-bottom span:last-child{margin-left:0;}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="xixi-skip" href="#xixi-main">跳至主要内容</a>
+
+<div class="xixi-sticky" id="xixi-sticky">
+  <div class="xixi-notice" role="region" aria-label="网站公告">
+    <span class="xixi-notice-badge">官方发布</span>
+    <div class="xixi-notice-track">
+      <span><b>全新企划《自然叙事·第一季》</b> 已上线，共 12 支原创高清短片</span>
+      <span><b>「毛发与光影」主题征集</b> 开放报名，截止 12 月 18 日</span>
+      <span><b>创作者激励计划 2.0</b> 上线，上传即有机会获得流量与设备支持</span>
+      <span><b>社区公约更新</b> 已发布，强调真实、尊重与包容的创作环境</span>
+    </div>
+  </div>
+
+  <header class="xixi-header">
+    <a class="xixi-logo" href="#xixi-hero" aria-label="西西人体下部毛毛必应 品牌首页">
+      <span class="xixi-logo-mark" aria-hidden="true">西</span>
+      <span>西西人体下部毛毛必应
+        <small>影像内容社区 · 官方网站</small>
+      </span>
+    </a>
+
+    <nav class="xixi-nav" aria-label="主导航">
+      <a href="#xixi-focus">焦点推荐</a>
+      <a href="#xixi-topics">专题企划</a>
+      <a href="#xixi-essay">关键词解析</a>
+      <a href="#xixi-authors">创作者</a>
+      <a href="#xixi-index">图文索引</a>
+      <a href="#xixi-reviews">社区口碑</a>
+      <a href="#xixi-support">关于我们</a>
+    </nav>
+
+    <div class="xixi-search">
+      <input type="search" id="xixi-search-input" placeholder="搜索视频、创作者、专题" aria-label="站内搜索">
+      <div class="xixi-search-hint" id="xixi-search-hint"></div>
+    </div>
+
+    <button class="xixi-burger" id="xixi-burger" aria-label="展开导航菜单" aria-expanded="false" aria-controls="xixi-mobile-nav">☰</button>
+
+    <div class="xixi-mobile-nav" id="xixi-mobile-nav">
+      <a href="#xixi-focus">焦点推荐</a>
+      <a href="#xixi-topics">专题企划</a>
+      <a href="#xixi-essay">关键词解析</a>
+      <a href="#xixi-authors">创作者</a>
+      <a href="#xixi-index">图文索引</a>
+      <a href="#xixi-reviews">社区口碑</a>
+      <a href="#xixi-support">关于我们</a>
+    </div>
+  </header>
+</div>
+
+<main id="xixi-main">
+  <!-- S2 首屏 -->
+  <section class="xixi-hero xixi-wrap" id="xixi-hero">
+    <div class="xixi-hero-grid">
+      <div>
+        <div class="xixi-kicker">Official Video Brand · 品牌官网</div>
+        <h1>西西人体下部毛毛必应
+          <span>真实身体表达 · 自然影像社区</span>
+        </h1>
+        <p class="xixi-hero-desc">
+          作为深耕身体美学与自然记录领域的视频品牌，西西人体下部毛毛必应官方网站以原创、高清、专业的影像内容为核心，连接创作者与真实生活。我们相信每一种自然的形态都值得被温柔记录，每一次坦诚的讲述都能产生力量。
+        </p>
+        <div class="xixi-hero-actions">
+          <a class="xixi-btn xixi-btn--accent" href="#xixi-focus">进入焦点内容</a>
+          <a class="xixi-btn" href="#xixi-authors">认识创作者</a>
+          <a class="xixi-btn xixi-btn--ghost" href="#xixi-support">投稿与合作</a>
+        </div>
+
+        <div class="xixi-stats" aria-label="品牌核心数据">
+          <div class="xixi-stat"><b>4,860+</b><span>原创高清视频作品</span></div>
+          <div class="xixi-stat"><b>320 万</b><span>社区注册创作者与观众</span></div>
+          <div class="xixi-stat"><b>98.2%</b><span>作品口碑好评率</span></div>
+        </div>
+      </div>
+
+      <figure class="xixi-hero-figure">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23151b2c'/%3E%3Cstop offset='1' stop-color='%2333415c'/%3E%3C/linearGradient%3E%3CradialGradient id='glow' cx='0.72' cy='0.3' r='0.5'%3E%3Cstop offset='0' stop-color='%23c8ff3d' stop-opacity='0.85'/%3E%3Cstop offset='1' stop-color='%23c8ff3d' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23sky)'/%3E%3Crect width='800' height='550' fill='url(%23glow)'/%3E%3Ccircle cx='580' cy='150' r='86' fill='%23e9ff9b' opacity='0.88'/%3E%3Cpath d='M0 430 Q160 320 300 400 T600 372 T800 410 L800 550 L0 550 Z' fill='%23101623'/%3E%3Cpath d='M0 470 Q200 400 380 462 T800 452 L800 550 L0 550 Z' fill='%230b0f19'/%3E%3Cg stroke='%23c8ff3d' stroke-width='2' opacity='0.55'%3E%3Cpath d='M120 300 L120 430'/%3E%3Cpath d='M160 330 L160 430'/%3E%3Cpath d='M200 360 L200 432'/%3E%3C/g%3E%3Cg fill='%2348d5ff' opacity='0.75'%3E%3Ccircle cx='120' cy='292' r='7'/%3E%3Ccircle cx='160' cy='322' r='7'/%3E%3Ccircle cx='200' cy='352' r='7'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='0.28'%3E%3Ccircle cx='300' cy='120' r='2.5'/%3E%3Ccircle cx='360' cy='70' r='3'/%3E%3Ccircle cx='680' cy='90' r='2'/%3E%3Ccircle cx='720' cy='220' r='2.6'/%3E%3Ccircle cx='470' cy='170' r='2'/%3E%3C/g%3E%3C/svg%3E"
+             alt="西西人体下部毛毛必应首屏主视觉：夜色与霓虹交织的自然影像氛围">
+        <div class="xixi-hero-live"><i></i>官方首播中 · 4K 高清</div>
+        <figcaption>自然影像企划主视觉 · 关于身体与光影的坦诚记录</figcaption>
+      </figure>
+    </div>
+
+    <div class="xixi-about">
+      <div>
+        <h2>品牌简介：让真实被专业地看见</h2>
+        <p>
+          西西人体下部毛毛必应官方网站是一家以自然影像为核心竞争力的视频内容品牌。我们围绕身体美学、自然记录、生活观察三条主线持续运营，为创作者提供从策划、拍摄到分发的完整支持。平台坚持原创与正版原则，所有上线内容均经过内容生态审核与品质校验，力求让每一次表达都值得信赖。
+        </p>
+        <p>
+          企业同时面向品牌方提供内容共创与传播服务，通过专题企划、创作者联动与社区活动，把垂直领域的影响力转化为可持续的用户连接。我们相信，负责任的内容平台不仅要追求高清画质，更要在多元表达中守住真实与尊重的底线。
+        </p>
+      </div>
+      <div class="xixi-about-facts">
+        <div class="xixi-fact"><b>内容生态</b> · 原创视频首发、正版授权转载、创作者孵化三线并行。</div>
+        <div class="xixi-fact"><b>品质把控</b> · 双审机制 + 4K 母版归档，保障高清与专业。</div>
+        <div class="xixi-fact"><b>社区运营</b> · 每周话题、每月主题征集、每季线下共创。</div>
+        <div class="xixi-fact"><b>企业合作</b> · 已服务 40+ 品牌方，覆盖影像、生活方式与公益领域。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 焦点内容 -->
+  <section class="xixi-section xixi-wrap" id="xixi-focus">
+    <div class="xixi-kicker">Focus · 焦点推荐</div>
+    <h2 class="xixi-h2">本周焦点：<em>西西人体下部毛毛必应</em> 精品内容首发</h2>
+    <p class="xixi-lead">由官方编辑与社区创作者共同推荐，聚焦自然影像、身体叙事与真实记录三类内容，每周更新。</p>
+
+    <div class="xixi-focus-grid">
+      <article class="xixi-focus-card">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23273345'/%3E%3Cstop offset='1' stop-color='%23516b82'/%3E%3C/linearGradient%3E%3CradialGradient id='g2' cx='0.25' cy='0.7' r='0.6'%3E%3Cstop offset='0' stop-color='%23ffb37a' stop-opacity='0.75'/%3E%3Cstop offset='1' stop-color='%23ffb37a' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23g1)'/%3E%3Crect width='640' height='360' fill='url(%23g2)'/%3E%3Cpath d='M60 300 Q140 200 240 300 T430 290 T600 300' stroke='%23ffe3c2' stroke-width='3' fill='none' opacity='0.7'/%3E%3Cg fill='%23ffd7ad' opacity='0.9'%3E%3Ccircle cx='120' cy='120' r='26'/%3E%3Ccircle cx='480' cy='90' r='16'/%3E%3C/g%3E%3Cg fill='%23151b25' opacity='0.85'%3E%3Crect x='380' y='210' width='150' height='90' rx='8'/%3E%3C/g%3E%3Cg stroke='%23c8ff3d' stroke-width='3' opacity='0.75'%3E%3Cpath d='M400 285 L430 250 L460 270 L500 232'/%3E%3C/g%3E%3C/svg%3E"
+               alt="焦点视频《柔光之下：身体自然的纹理记录》封面，暖色光影与柔和曲线">
+          <button class="xixi-play" type="button" aria-label="播放焦点视频">▶</button>
+        </figure>
+        <div class="xixi-focus-body">
+          <div class="xixi-meta"><span class="xixi-tag xixi-tag--lime">官方精选</span><span>时长 18:42</span><span>4K 高清</span></div>
+          <h3>柔光之下：身体自然的纹理记录</h3>
+          <p>一支关于光影与肌肤质感的实验短片。摄影团队用微距与逆光交替拍摄，把自然的生长状态还原为可被观看的细节叙事。</p>
+          <div class="xixi-meta" style="margin-top:12px;">
+            <span>作者 · 林见野</span><span>播放 128.6 万</span><span>点赞 4.2 万</span>
+          </div>
+          <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;">
+            <button class="xixi-btn xixi-btn--sm xixi-btn--accent" type="button" data-xixi-open="play">观看正片</button>
+            <button class="xixi-btn xixi-btn--sm" type="button" data-xixi-copy="柔光之下：身体自然的纹理记录">复制链接</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="xixi-video-list" aria-label="热门视频列表">
+        <article class="xixi-video-item">
+          <div class="xixi-video-rank">01</div>
+          <div class="xixi-video-body">
+            <h4>毛发与光：一次坦诚的镜头实验</h4>
+            <p>用长焦与自然光记录真实毛发质感，讲述身体自我接纳的过程。</p>
+            <div class="xixi-video-foot">
+              <span class="xixi-tag">身体叙事</span><span>沈照</span><span>播放 86.3 万</span>
+              <div class="xixi-video-actions">
+                <button class="xixi-like" type="button" data-count="18200" aria-label="点赞">♡ 1.8万</button>
+                <button class="xixi-fav" type="button" aria-label="收藏">☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="xixi-video-item">
+          <div class="xixi-video-rank">02</div>
+          <div class="xixi-video-body">
+            <h4>野外取景笔记：如何在自然里拍出松弛感</h4>
+            <p>从光线判断到构图留白，一支面向新手的实拍教程。</p>
+            <div class="xixi-video-foot">
+              <span class="xixi-tag xixi-tag--lime">教程干货</span><span>阿绒</span><span>播放 74.1 万</span>
+              <div class="xixi-video-actions">
+                <button class="xixi-like" type="button" data-count="12400" aria-label="点赞">♡ 1.2万</button>
+                <button class="xixi-fav" type="button" aria-label="收藏">☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="xixi-video-item">
+          <div class="xixi-video-rank">03</div>
+          <div class="xixi-video-body">
+            <h4>她说了 21 分钟：一次关于身体的访谈</h4>
+            <p>创作者对谈：从羞耻到坦然，身体表达如何被重新理解。</p>
+            <div class="xixi-video-foot">
+              <span class="xixi-tag">人物访谈</span><span>周雨迟</span><span>播放 65.8 万</span>
+              <div class="xixi-video-actions">
+                <button class="xixi-like" type="button" data-count="9870" aria-label="点赞">♡ 9870</button>
+                <button class="xixi-fav" type="button" aria-label="收藏">☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="xixi-video-item">
+          <div class="xixi-video-rank">04</div>
+          <div class="xixi-video-body">
+            <h4>剪辑台前的三小时：柔焦与颗粒的取舍</h4>
+            <p>幕后记录，展示一支自然影像短片的调色与节奏处理。</p>
+            <div class="xixi-video-foot">
+              <span class="xixi-tag">创作幕后</span><span>林见野</span><span>播放 52.4 万</span>
+              <div class="xixi-video-actions">
+                <button class="xixi-like" type="button" data-count="7420" aria-label="点赞">♡ 7420</button>
+                <button class="xixi-fav" type="button" aria-label="收藏">☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="xixi-video-item">
+          <div class="xixi-video-rank">05</div>
+          <div class="xixi-video-body">
+            <h4>社区共创：一百个人的自然自述</h4>
+            <p>征集作品混剪，以短镜头拼出真实的自我描述。</p>
+            <div class="xixi-video-foot">
+              <span class="xixi-tag">社区共创</span><span>官方编辑部</span><span>播放 47.9 万</span>
+              <div class="xixi-video-actions">
+                <button class="xixi-like" type="button" data-count="6630" aria-label="点赞">♡ 6630</button>
+                <button class="xixi-fav" type="button" aria-label="收藏">☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S4 专题企划 -->
+  <section class="xixi-section xixi-wrap" id="xixi-topics">
+    <div class="xixi-kicker">Programs · 专题企划</div>
+    <h2 class="xixi-h2">正在更新的 <em>西西人体下部毛毛必应</em> 专题企划</h2>
+    <p class="xixi-lead">每一季围绕一个真实议题展开，由官方发起、创作者参与、社区共建，持续产出原创精品内容。</p>
+
+    <div class="xixi-topics">
+      <article class="xixi-topic">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 320'%3E%3Cdefs%3E%3ClinearGradient id='t1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231d2733'/%3E%3Cstop offset='1' stop-color='%233f5d4e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='560' height='320' fill='url(%23t1)'/%3E%3Cg stroke='%239dffb0' stroke-width='2.5' fill='none' opacity='0.8'%3E%3Cpath d='M40 250 Q120 150 200 240 T360 220 T520 250'/%3E%3Cpath d='M60 200 Q160 110 260 190 T520 170'/%3E%3C/g%3E%3Cg fill='%23c8ff3d' opacity='0.9'%3E%3Ccircle cx='200' cy='240' r='6'/%3E%3Ccircle cx='360' cy='220' r='6'/%3E%3Ccircle cx='260' cy='190' r='5'/%3E%3C/g%3E%3C/svg%3E"
+               alt="专题《自然叙事·第一季》海报，绿色山脊线与光点">
+        </figure>
+        <div class="xixi-topic-body">
+          <div class="xixi-status"><i></i>更新中 · 已上线 12 支</div>
+          <h3>自然叙事 · 第一季</h3>
+          <p>从原野、皮肤到日常光线，十二支短片构成一条关于自然与身体的连续叙事线。</p>
+          <ul class="xixi-topic-items">
+            <li>第 03 集《草叶与掌心》</li>
+            <li>第 07 集《逆光下的轮廓》</li>
+            <li>第 12 集《回到身体本身》</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="xixi-topic">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 320'%3E%3Cdefs%3E%3ClinearGradient id='t2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%232a1f2e'/%3E%3Cstop offset='1' stop-color='%235a3f5f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='560' height='320' fill='url(%23t2)'/%3E%3Cg fill='%23ffd2f0' opacity='0.85'%3E%3Ccircle cx='160' cy='120' r='40'/%3E%3Ccircle cx='400' cy='200' r='64'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-width='1.4' opacity='0.5'%3E%3Ccircle cx='280' cy='160' r='110' fill='none'/%3E%3Ccircle cx='280' cy='160' r='150' fill='none'/%3E%3C/g%3E%3C/svg%3E"
+               alt="专题《毛发与光影》海报，粉紫色柔光圆形构图">
+        </figure>
+        <div class="xixi-topic-body">
+          <div class="xixi-status"><i></i>征集中 · 报名开放</div>
+          <h3>毛发与光影 · 共创计划</h3>
+          <p>以细节质感为切口，邀请创作者用镜头回应身体自然的纹理与生长。</p>
+          <ul class="xixi-topic-items">
+            <li>征集方向：微距 / 逆光 / 日常自述</li>
+            <li>提交方式：官方投稿入口上传</li>
+            <li>入选权益：首页推荐与设备支持</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="xixi-topic">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 320'%3E%3Cdefs%3E%3ClinearGradient id='t3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23121925'/%3E%3Cstop offset='1' stop-color='%232b4763'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='560' height='320' fill='url(%23t3)'/%3E%3Cg stroke='%2348d5ff' stroke-width='2' opacity='0.8'%3E%3Crect x='70' y='80' width='120' height='170' rx='8' fill='none'/%3E%3Crect x='215' y='60' width='120' height='190' rx='8' fill='none'/%3E%3Crect x='360' y='96' width='120' height='150' rx='8' fill='none'/%3E%3C/g%3E%3Cg fill='%23c8ff3d' opacity='0.9'%3E%3Crect x='96' y='112' width='68' height='8' rx='4'/%3E%3Crect x='241' y='92' width='68' height='8' rx='4'/%3E%3Crect x='386' y='128' width='68' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E"
+               alt="专题《创作者幕后工具箱》海报，深蓝界面线框与荧光块">
+        </figure>
+        <div class="xixi-topic-body">
+          <div class="xixi-status"><i></i>已完结 · 6 期</div>
+          <h3>创作者幕后工具箱</h3>
+          <p>六期实操分享，涵盖选题、灯光、收音与分发，帮助新人快速建立创作流程。</p>
+          <ul class="xixi-topic-items">
+            <li>如何用一盏灯完成柔光人像</li>
+            <li>自然声收音的三个关键位置</li>
+            <li>低成本调色的四个步骤</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- S4b 关键词解析（800字以上） -->
+  <section class="xixi-section xixi-wrap" id="xixi-essay">
+    <div class="xixi-kicker">Deep Dive · 关键词解析</div>
+    <h2 class="xixi-h2">理解 <em>西西人体下部毛毛必应</em>：从命名到内容生态</h2>
+    <p class="xixi-lead">一个品牌名往往浓缩了它的自我定位与内容方向。以下从品牌语义、内容边界与社区运营三个层面，展开超过八百字的深度解析。</p>
+
+    <div class="xixi-essay">
+      <div class="xixi-essay-grid">
+        <div>
+          <h3>一、命名的语义结构：自然、身体与观看</h3>
+          <p>
+            “西西人体下部毛毛必应”这一名称在语义上由几个层次叠加而成。首先是“西西”，一个带有亲昵感的发音，像是对某位创作者的称呼，也像是社区里的昵称，天然降低了观看的门槛。其次是“人体下部”，它指向身体叙事中较少被公开讨论的部分，带有明确的记录属性，而非猎奇。再次是“毛毛”，用叠词弱化了生硬感，把毛发这一细节还原为自然的、可被温柔呈现的质感。最后的“必应”，则像一种回应：当有人认真记录，就应当有人真诚回应。
+          </p>
+          <p>
+            对一家视频品牌而言，这样的命名意味着内容方向并非泛娱乐，而是以身体细节为切口、以自然记录为方法、以社区回应为目标的垂直内容生态。它在官网首页被完整保留，也是为了明确告诉访问者：这是一个持续运营的原创内容品牌，而不是一次性的流量话题。
+          </p>
+
+          <h3>二、内容边界：在真实与专业之间建立标准</h3>
+          <p>
+            垂直领域的内容最容易走两个极端：要么过度猎奇，要么过度保守。西西人体下部毛毛必应选择的是第三条路——以专业影像标准处理真实题材。具体到执行层面，平台对每一支上传作品设置了三道关卡：第一是内容合规审核，确保不涉及违规表达；第二是画质与声音的技术校验，要求高清母版与可辨识的收音质量；第三是叙事完整度评估，鼓励创作者把镜头背后的动机讲清楚，而不是只呈现画面。
+          </p>
+          <p>
+            这套标准直接反映在首页的焦点推荐里：观众看到的不是碎片化的猎奇片段，而是有标题、有作者、有时长、有创作说明的完整作品。平台也因此在社区中建立起值得信赖的口碑——当用户点开一支视频，他知道自己将获得的是一段认真制作的影像，而不是被算法推送的噪声。
+          </p>
+        </div>
+
+        <div>
+          <h3>三、社区运营：让回应成为内容的一部分</h3>
+          <p>
+            名称里的“必应”不是修辞，而是运营机制。官方把评论区、短评、评分摘要和作者问答都视为内容的一部分：每支重点作品上线后，编辑会邀请作者参与弹幕与评论互动；每两周整理一次“社区回声”，把高质量评论汇编成图文索引，反向推荐给更多观众。这样一来，观看者不再只是被动的接收者，而是内容生态的共建者。
+          </p>
+          <p>
+            与此同时，平台通过专题企划把零散的回应组织起来。例如“毛发与光影”共创计划，就是先从评论区收集真实困惑，再邀请创作者用视频回应的完整闭环。这种由下而上的选题方式，让内容始终贴近真实需求，也让品牌与社区之间保持温暖的陪伴关系。
+          </p>
+
+          <h3>四、长期主义：品质、责任与持续运营</h3>
+          <p>
+            在流量逻辑之外，西西人体下部毛毛必应更看重长期积累。官网所展示的核心数据并非单一播放量，而是原创作品数、社区创作者规模和口碑好评率，这三项指标共同构成了品牌影响力的基础。平台每年投入固定预算用于创作者扶持，包括设备借用、拍摄场地合作与后期技术支持，让真正有表达欲望的人不被成本挡在门外。
+          </p>
+          <p>
+            社会责任同样被写进运营规范：涉及身体议题的内容必须遵循尊重与包容原则，禁止任何形式的贬损与物化；对未成年用户设置严格的内容分级；对企业合作内容明确标注，保证用户知情。这些看似繁琐的规则，恰恰是一个视频品牌能够被信任、被选择、被持续关注的原因。作为官方网站，我们愿意把这些标准公开呈现，也愿意在每一次内容发布中接受社区的检验。
+          </p>
+        </div>
+      </div>
+
+      <div class="xixi-essay-aside" style="margin-top:26px;">
+        <h4>内容生态关键词 · 一分钟速览</h4>
+        <ul>
+          <li><b>原创</b> · 官网首发作品均带原创标识，转载需正版授权。</li>
+          <li><b>高清</b> · 4K 母版归档，移动端自适应码率。</li>
+          <li><b>专业</b> · 三审机制覆盖合规、技术、叙事。</li>
+          <li><b>社区</b> · 评论、短评、共创企划构成回应的闭环。</li>
+          <li><b>成长</b> · 新人扶持计划每季度开放申请。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者矩阵 -->
+  <section class="xixi-section xixi-wrap" id="xixi-authors">
+    <div class="xixi-kicker">Creators · 创作者矩阵</div>
+    <h2 class="xixi-h2">在 <em>西西人体下部毛毛必应</em> 持续创作的伙伴</h2>
+    <p class="xixi-lead">他们来自影像、撰稿、田野记录与声音设计等不同领域，以各自的方式回应身体与自然的议题。</p>
+
+    <div class="xixi-authors">
+      <article class="xixi-author">
+        <div class="xixi-avatar" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" fill="#2b3a4f"/><circle cx="32" cy="24" r="12" fill="#c8ff3d"/><path d="M10 60 Q32 38 54 60 Z" fill="#48d5ff"/></svg>
+        </div>
+        <div>
+          <h3>林见野</h3>
+          <div class="xixi-role">擅长领域 · 自然影像 / 微距摄影</div>
+          <p>独立摄影师，长期在山区与海岸线之间拍摄自然细节。擅长用微距与逆光呈现被忽略的质感，作品节奏克制、画面干净。相信镜头首先应当诚实，其次才是美。</p>
+          <div class="xixi-author-foot"><span>作品 86</span><span>粉丝 42.6 万</span><a class="xixi-author-more" href="#xixi-index">查看主页</a></div>
+        </div>
+      </article>
+
+      <article class="xixi-author">
+        <div class="xixi-avatar" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" fill="#4a2b3d"/><rect x="14" y="14" width="36" height="36" rx="10" fill="#ffd2f0"/><circle cx="32" cy="32" r="9" fill="#2a1f2e"/></svg>
+        </div>
+        <div>
+          <h3>沈照</h3>
+          <div class="xixi-role">擅长领域 · 身体叙事 / 实验短片</div>
+          <p>影像创作者与撰稿人，关注身体自我接纳与女性表达。作品常以长镜头与独白构成，语言坦率直接。她认为讲述本身就是一种力量，愿意把镜头交给每一个愿意开口的人。</p>
+          <div class="xixi-author-foot"><span>作品 61</span><span>粉丝 35.1 万</span><a class="xixi-author-more" href="#xixi-index">查看主页</a></div>
+        </div>
+      </article>
+
+      <article class="xixi-author">
+        <div class="xixi-avatar" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" fill="#1f3b33"/><path d="M12 46 L26 22 L38 40 L50 18" stroke="#9dffb0" stroke-width="4" fill="none"/><circle cx="50" cy="18" r="6" fill="#c8ff3d"/></svg>
+        </div>
+        <div>
+          <h3>阿绒</h3>
+          <div class="xixi-role">擅长领域 · 户外记录 / 拍摄教学</div>
+          <p>户外影像向导，常年带队在高原与林线取景。讲解风格朴素实用，习惯把复杂的光线与构图拆成可执行步骤。他相信新手缺的不是设备，而是一次清晰的示范。</p>
+          <div class="xixi-author-foot"><span>作品 94</span><span>粉丝 38.7 万</span><a class="xixi-author-more" href="#xixi-index">查看主页</a></div>
+        </div>
+      </article>
+
+      <article class="xixi-author">
+        <div class="xixi-avatar" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64' height='64' fill='#232a3d'/%3E"><rect width="64" height="64" fill="#232a3d"/><circle cx="24" cy="26" r="10" fill="#48d5ff"/><circle cx="42" cy="36" r="8" fill="#c8ff3d"/><rect x="12" y="48" width="40" height="5" rx="2.5" fill="#9ba2b3"/></svg>
+        </div>
+        <div>
+          <h3>周雨迟</h3>
+          <div class="xixi-role">擅长领域 · 人物访谈 / 声音设计</div>
+          <p>播客制作人转型的访谈作者，擅长在长时间对话里捕捉真实的犹疑与停顿。他的影像作品往往以声音为线索，把对话剪辑成有呼吸感的叙事，被社区称为“愿意等你说完的人”。</p>
+          <div class="xixi-author-foot"><span>作品 48</span><span>粉丝 29.3 万</span><a class="xixi-author-more" href="#xixi-index">查看主页</a></div>
+        </div>
+      </article>
+
+      <article class="xixi-author">
+        <div class="xixi-avatar" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" fill="#3b2f1f"/><path d="M32 12 L44 30 L32 52 L20 30 Z" fill="#ffb37a"/><circle cx="32" cy="30" r="6" fill="#2a1f2e"/></svg>
+        </div>
+        <div>
+          <h3>苏桃</h3>
+          <div class="xixi-role">擅长领域 · 生活方式 / 日常记录</div>
+          <p>日常影像博主，用固定机位记录居家、饮食与季节变化。内容节奏缓慢，强调不修饰的真实感。她坚持每周更新，把创作当作陪伴，也把评论区当作共同生活的一部分。</p>
+          <div class="xixi-author-foot"><span>作品 132</span><span>粉丝 46.9 万</span><a class="xixi-author-more" href="#xixi-index">查看主页</a></div>
+        </div>
+      </article>
+
+      <article class="xixi-author">
+        <div class="xixi-avatar" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" fill="#2a2438"/><rect x="18" y="18" width="28" height="28" rx="6" fill="#c8ff3d"/><path d="M24 40 L32 24 L40 40 Z" fill="#2a2438"/></svg>
+        </div>
+        <div>
+          <h3>何灯</h3>
+          <div class="xixi-role">擅长领域 · 灯光实验 / 视觉设计</div>
+          <p>灯光师与视觉设计师，专注用有限器材做质感实验。作品常以单灯、硬光与色纸构成强烈的画面语言，同时乐于公开布光图。他认为专业不神秘，愿意把方法讲给所有人听。</p>
+          <div class="xixi-author-foot"><span>作品 57</span><span>粉丝 31.4 万</span><a class="xixi-author-more" href="#xixi-index">查看主页</a></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- S6 图文索引 -->
+  <section class="xixi-section xixi-wrap" id="xixi-index">
+    <div class="xixi-kicker">Index · 图文索引</div>
+    <h2 class="xixi-h2">编辑手记：<em>西西人体下部毛毛必应</em> 的内容延伸阅读</h2>
+    <p class="xixi-lead">影像之外，文字是另一种记录方式。这里收录与视频内容呼应的短文、幕后手记与社区回声。</p>
+
+    <div class="xixi-index-grid">
+      <article class="xixi-index-card">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 300'%3E%3Cdefs%3E%3ClinearGradient id='i1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23203636'/%3E%3Cstop offset='1' stop-color='%23466b5c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='300' fill='url(%23i1)'/%3E%3Cg fill='%23c8ff3d' opacity='0.7'%3E%3Crect x='60' y='190' width='14' height='60' rx='7'/%3E%3Crect x='92' y='160' width='14' height='90' rx='7'/%3E%3Crect x='124' y='130' width='14' height='120' rx='7'/%3E%3C/g%3E%3Ccircle cx='360' cy='100' r='52' fill='%239dffb0' opacity='0.35'/%3E%3C/svg%3E"
+               alt="编辑手记《为什么我们选择记录细节》配图，绿色柱状光点">
+        </figure>
+        <div>
+          <h3>为什么我们选择记录细节</h3>
+          <p>从一支微距短片说起，聊聊细节为何比宏大叙事更能建立信任。</p>
+        </div>
+      </article>
+
+      <article class="xixi-index-card">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 300'%3E%3Cdefs%3E%3ClinearGradient id='i2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23312b45'/%3E%3Cstop offset='1' stop-color='%236b5c8f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='300' fill='url(%23i2)'/%3E%3Cg stroke='%23ffd2f0' stroke-width='2' fill='none' opacity='0.8'%3E%3Cpath d='M60 240 Q140 120 240 200 T420 180'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='0.5'%3E%3Ccircle cx='150' cy='90' r='3'/%3E%3Ccircle cx='300' cy='70' r='4'/%3E%3Ccircle cx='390' cy='120' r='2.5'/%3E%3C/g%3E%3C/svg%3E"
+               alt="幕后手记《一次坦诚拍摄的现场笔记》配图，紫色曲线与光点">
+        </figure>
+        <div>
+          <h3>一次坦诚拍摄的现场笔记</h3>
+          <p>记录片场如何建立安全与信任，让被拍摄者愿意放松下来。</p>
+        </div>
+      </article>
+
+      <article class="xixi-index-card">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 300'%3E%3Cdefs%3E%3ClinearGradient id='i3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%231b2430'/%3E%3Cstop offset='1' stop-color='%23324c63'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='300' fill='url(%23i3)'/%3E%3Cg fill='none' stroke='%2348d5ff' stroke-width='2.5' opacity='0.85'%3E%3Ccircle cx='240' cy='150' r='72'/%3E%3Ccircle cx='240' cy='150' r='42'/%3E%3C/g%3E%3Ccircle cx='240' cy='150' r='12' fill='%23c8ff3d'/%3E%3C/svg%3E"
+               alt="社区回声《评论区里的二十种理解》配图，深蓝同心圆">
+        </figure>
+        <div>
+          <h3>评论区里的二十种理解</h3>
+          <p>我们把高赞评论汇编成文，看见同一支视频激起的多元回声。</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- S6b 社区评价 -->
+  <section class="xixi-section xixi-wrap" id="xixi-reviews">
+    <div class="xixi-kicker">Voices · 社区口碑</div>
+    <h2 class="xixi-h2">来自 <em>西西人体下部毛毛必应</em> 社区的真实评价</h2>
+    <p class="xixi-lead">每一条反馈都会被认真阅读。以下短评来自注册用户、创作者与合作品牌方，语气与角度各不相同。</p>
+
+    <div class="xixi-review-wrap">
+      <div class="xixi-reviews">
+        <article class="xixi-review">
+          <div class="xixi-review-head"><i>陈</i><b>陈默</b><em>观众 · 3 天前</em></div>
+          <p>第一次在首页看到关于毛发质感的短片，没有不适感，反而觉得很安静。画质是真的高清，细节看得很清楚，能感受到制作方的诚意。</p>
+        </article>
+        <article class="xixi-review">
+          <div class="xixi-review-head"><i>许</i><b>许一舟</b><em>新人创作者</em></div>
+          <p>提交作品后第三天就收到了反馈邮件，指出了收音上的问题，还给了改进建议。这种愿意花时间指导新人的平台不多，值得信赖。</p>
+        </article>
+        <article class="xixi-review">
+          <div class="xixi-review-head"><i>M</i><b>Momo</b><em>观众 · 上周</em></div>
+          <p>本来只是搜来看点轻松的，结果被《她说了 21 分钟》看到结尾。访谈节奏很好，没有刻意煽情，但很温暖。</p>
+        </article>
+        <article class="xixi-review">
+          <div class="xixi-review-head"><i>林</i><b>林小满</b><em>投稿用户</em></div>
+          <p>投稿入口比想象中好找，表单也清楚。只是希望以后能支持批量上传，一次传五条要重复填信息有点麻烦。</p>
+        </article>
+        <article class="xixi-review">
+          <div class="xixi-review-head"><i>周</i><b>周先生</b><em>合作品牌方</em></div>
+          <p>我们是做户外装备的，和平台合作了一次自然影像企划，内容调性很稳，没有为了流量夸张化，这一点在合作中特别难得。</p>
+        </article>
+        <article class="xixi-review">
+          <div class="xixi-review-head"><i>阿</i><b>阿绫</b><em>观众 · 2 天前</em></div>
+          <p>喜欢专题页的编排，能看到一季完整的叙事线，不像刷短视频那样跳来跳去。希望第二季早点上线。</p>
+        </article>
+        <article class="xixi-review">
+          <div class="xixi-review-head"><i>何</i><b>何灯</b><em>创作者</em></div>
+          <p>作为创作者，最看重的是平台对版权和原创的保护。上线作品会明确标注作者与来源，这点做得比较专业。</p>
+        </article>
+        <article class="xixi-review">
+          <div class="xixi-review-head"><i>陆</i><b>陆遥</b><em>观众 · 昨天</em></div>
+          <p>评论区氛围挺好的，大家都在认真讨论内容本身，很少看到攻击性言论。感觉社区是有在用心运营的。</p>
+        </article>
+      </div>
+
+      <aside class="xixi-score" aria-label="社区评分摘要">
+        <div class="xixi-score-num">4.8<small> / 5</small></div>
+        <p>基于 12,684 条社区评价综合计算</p>
+        <div class="xixi-bars">
+          <div class="xixi-bar"><span>内容品质</span><span class="xixi-bar-track"><i style="width:96%"></i></span><span>4.8</span></div>
+          <div class="xixi-bar"><span>原创程度</span><span class="xixi-bar-track"><i style="width:94%"></i></span><span>4.7</span></div>
+          <div class="xixi-bar"><span>社区氛围</span><span class="xixi-bar-track"><i style="width:92%"></i></span><span>4.6</span></div>
+          <div class="xixi-bar"><span>服务响应</span><span class="xixi-bar-track"><i style="width:90%"></i></span><span>4.5</span></div>
+          <div class="xixi-bar"><span>观看体验</span><span class="xixi-bar-track"><i style="width:97%"></i></span><span>4.9</span></div>
+        </div>
+        <p style="margin-top:14px;">口碑数据每季度更新，由第三方问卷与站内评价共同构成。</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- S7 辅助区：企业动态 / 合作 / FAQ / 投稿 -->
+  <section class="xixi-section xixi-wrap" id="xixi-support">
+    <div class="xixi-kicker">About & Support · 关于与支持</div>
+    <h2 class="xixi-h2">与 <em>西西人体下部毛毛必应</em> 一起持续成长</h2>
+    <p class="xixi-lead">企业动态、合作品牌、常见问题与投稿入口集中在这里，方便创作者与合作伙伴快速找到需要的信息。</p>
+
+    <div class="xixi-support">
+      <div class="xixi-panel">
+        <h2>企业动态 · 官方发布</h2>
+        <ul class="xixi-timeline">
+          <li><time>11.18</time><div><b>创作者扶持计划 2.0 上线</b><span>新增设备借用与后期补贴，首期开放 120 个名额。</span></div></li>
+          <li><time>11.09</time><div><b>《自然叙事·第一季》全季收官</b><span>十二支原创短片累计播放突破 760 万。</span></div></li>
+          <li><time>10.27</time><div><b>社区公约更新发布</b><span>明确尊重与包容原则，新增内容分级说明。</span></div></li>
+          <li><time>10.12</time><div><b>与三家影像机构达成内容合作</b><span>共同推进自然影像题材的长期记录。</span></div></li>
+        </ul>
+      </div>
+
+      <div class="xixi-panel">
+        <h2>合作品牌 · 长期伙伴</h2>
+        <div class="xixi-partners">
+          <div class="xixi-partner"><i></i>微光影像器材</div>
+          <div class="xixi-partner"><i></i>原野户外装备</div>
+          <div class="xixi-partner"><i></i>拾光后期工作室</div>
+          <div class="xixi-partner"><i></i>南岸独立书店</div>
+          <div class="xixi-partner"><i></i>青苔自然基金会</div>
+          <div class="xixi-partner"><i></i>声场录音棚</div>
+        </div>
+        <p style="margin-top:16px;font-size:12.5px;color:var(--xixi-muted);">合作方向涵盖内容共创、设备支持与公益传播，欢迎通过投稿入口联系我们。</p>
+      </div>
+
+      <div class="xixi-panel" style="grid-column:1/-1;">
+        <h2>常见问题 · FAQ</h2>
+        <div class="xixi-faq">
+          <details>
+            <summary>如何成为西西人体下部毛毛必应的注册创作者？</summary>
+            <p>点击任意页面的投稿入口，填写基础信息并上传一支原创样片即可提交申请。审核通常在 5 个工作日内完成，通过后即可在个人主页持续发布作品。</p>
+          </details>
+          <details>
+            <summary>平台对作品画质有什么具体要求？</summary>
+            <p>建议上传 1080P 及以上分辨率，重点作品优先提供 4K 母版。声音需清晰可辨，避免严重失真。技术校验不通过的作品会收到具体修改建议。</p>
+          </details>
+          <details>
+            <summary>原创作品如何获得首页推荐？</summary>
+            <p>推荐综合考量原创程度、叙事完整度与社区反馈。每周由编辑团队与创作者代表共同评选，入选作品会在焦点推荐与专题企划中展示。</p>
+          </details>
+          <details>
+            <summary>我想与企业合作内容企划，应该联系谁？</summary>
+            <p>请通过投稿入口选择“商务合作”类型，附上合作方向与时间预期。企业合作团队会在 3 个工作日内回复，并安排需求沟通。</p>
+          </details>
+          <details>
+            <summary>平台如何处理涉及身体议题的内容？</summary>
+            <p>所有相关内容须遵循尊重、真实与非物化原则，并经过合规审核。平台对未成年用户设有内容分级与访问限制，确保社区环境安全。</p>
+          </details>
+          <details>
+            <summary>评论区被误判或误删了怎么办？</summary>
+            <p>可在个人中心提交申诉，注明评论内容与时间。社区运营团队会在 48 小时内复核，并对误判情况及时恢复。</p>
+          </details>
+          <details>
+            <summary>是否支持下载已发布的原创作品？</summary>
+            <p>作者本人可下载自己的高清母版；其他用户需获得作者授权。平台提供正版转载申请通道，杜绝未经许可的二次传播。</p>
+          </details>
+          <details>
+            <summary>社区活动与比赛在哪里报名？</summary>
+            <p>每期专题企划页顶部会显示报名状态与截止时间，点击“报名”按提示提交即可。活动结果会在企业动态栏目官方发布。</p>
+          </details>
+        </div>
+      </div>
+    </div>
+
+    <div class="xixi-cta">
+      <div>
+        <h2>有想记录的真实，就从这里上传</h2>
+        <p>投稿入口全年开放，支持视频、图文与创作脚本。我们期待与你一起，让真实被专业地看见。</p>
+      </div>
+      <div class="xixi-cta-actions">
+        <button class="xixi-btn xixi-btn--accent" type="button" data-xixi-open="submit">进入投稿入口</button>
+        <button class="xixi-btn" type="button" data-xixi-open="contact">联系与合作</button>
+        <button class="xixi-btn xixi-btn--ghost" type="button" data-xixi-open="feedback">反馈建议</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="xixi-footer">
+  <div class="xixi-wrap">
+    <div class="xixi-footer-grid">
+      <div>
+        <div class="xixi-footer-brand">
+          <span class="xixi-logo-mark" aria-hidden="true">西</span>
+          <strong>西西人体下部毛毛必应</strong>
+        </div>
+        <p>自然影像 · 身体叙事 · 真实社区。作为持续运营的视频品牌官方网站，我们坚持原创、正版与高清标准，为创作者与企业搭建值得信赖的内容生态。</p>
+      </div>
+      <div class="xixi-footer-col">
+        <h4>浏览</h4>
+        <ul>
+          <li><a href="#xixi-focus">焦点推荐</a></li>
+          <li><a href="#xixi-topics">专题企划</a></li>
+          <li><a href="#xixi-index">图文索引</a></li>
+          <li><a href="#xixi-reviews">社区口碑</a></li>
+        </ul>
+      </div>
+      <div class="xixi-footer-col">
+        <h4>参与</h4>
+        <ul>
+          <li><a href="#xixi-authors">创作者矩阵</a></li>
+          <li><a href="#xixi-support">投稿入口</a></li>
+          <li><a href="#xixi-support">常见问题</a></li>
+          <li><a href="#xixi-support">企业合作</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>品牌信息</h4>
+        <p>运营主体：西西人体下部毛毛必应（影像内容品牌）</p>
+        <p style="margin-top:8px;">内容合作：brand@xixi-video.example</p>
+        <p style="margin-top:8px;">客服时间：周一至周五 10:00–19:00</p>
+      </div>
+    </div>
+    <div class="xixi-footer-bottom">
+      <span>© 2026 西西人体下部毛毛必应 官方网站 · 版权所有</span>
+      <span>持续运营中 · 原创内容受版权保护</span>
+      <span>备案号：示例备案 2026000000 号</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 弹窗 -->
+<div class="xixi-modal" id="xixi-modal" role="dialog" aria-modal="true" aria-labelledby="xixi-modal-title">
+  <div class="xixi-modal-box">
+    <h3 id="xixi-modal-title">提示</h3>
+    <div id="xixi-modal-body"></div>
+    <div class="xixi-modal-foot">
+      <button class="xixi-btn xixi-btn--sm" type="button" id="xixi-modal-close">关闭</button>
+    </div>
+  </div>
+</div>
+
+<div class="xixi-toast" id="xixi-toast" role="status" aria-live="polite"></div>
+<button class="xixi-top" id="xixi-top" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  var d = document;
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = d.getElementById("xixi-burger");
+  var mobileNav = d.getElementById("xixi-mobile-nav");
+  if (burger && mobileNav) {
+    burger.addEventListener("click", function(){
+      var open = mobileNav.classList.toggle("xixi-open");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      burger.textContent = open ? "✕" : "☰";
+    });
+    mobileNav.addEventListener("click", function(e){
+      if (e.target.tagName === "A") {
+        mobileNav.classList.remove("xixi-open");
+        burger.setAttribute("aria-expanded","false");
+        burger.textContent = "☰";
+      }
+    });
+  }
+
+  /* ---------- Toast ---------- */
+  var toast = d.getElementById("xixi-toast");
+  var toastTimer = null;
+  function showToast(msg){
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add("xixi-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove("xixi-show"); }, 2200);
+  }
+
+  /* ---------- 搜索过滤提示 ---------- */
+  var searchInput = d.getElementById("xixi-search-input");
+  var searchHint = d.getElementById("xixi-search-hint");
+  var searchIndex = [
+    {t:"柔光之下：身体自然的纹理记录", k:"林见野 自然影像 微距"},
+    {t:"毛发与光影：一次坦诚的镜头实验", k:"沈照 身体叙事"},
+    {t:"野外取景笔记：如何在自然里拍出松弛感", k:"阿绒 教程 户外"},
+    {t:"她说了 21 分钟：一次关于身体的访谈", k:"周雨迟 访谈"},
+    {t:"自然叙事·第一季", k:"专题 企划"},
+    {t:"毛发与光影·共创计划", k:"征集 报名"},
+    {t:"创作者幕后工具箱", k:"教程 工具"},
+    {t:"林见野", k:"创作者 摄影"},
+    {t:"沈照", k:"创作者 实验短片"},
+    {t:"阿绒", k:"创作者 户外"},
+    {t:"周雨迟", k:"创作者 访谈"},
+    {t:"苏桃", k:"创作者 生活记录"},
+    {t:"何灯", k:"创作者 灯光"}
+  ];
+  if (searchInput && searchHint) {
+    searchInput.addEventListener("input", function(){
+      var q = searchInput.value.trim();
+      if (!q) {
+        searchHint.classList.remove("xixi-open");
+        searchHint.innerHTML = "";
+        return;
+      }
+      var hits = searchIndex.filter(function(item){
+        return (item.t + item.k).toLowerCase().indexOf(q.toLowerCase()) !== -1;
+      }).slice(0, 5);
+      if (hits.length === 0) {
+        searchHint.innerHTML = "未找到与 <b>" + q.replace(/[<>&]/g,"") + "</b> 相关的内容，试试「自然影像」「创作者」「专题」。";
+      } else {
+        searchHint.innerHTML = "找到 " + hits.length + " 条相关结果：<br>" +
+          hits.map(function(h){ return "· " + h.t; }).join("<br>");
+      }
+      searchHint.classList.add("xixi-open");
+    });
+    searchInput.addEventListener("keydown", function(e){
+      if (e.key === "Enter") {
+        e.preventDefault();
+        var q = searchInput.value.trim();
+        if (q) showToast("正在搜索「" + q + "」，共匹配 " + searchIndex.filter(function(i){return (i.t+i.k).indexOf(q)!==-1;}).length + " 项内容");
+      }
+    });
+    d.addEventListener("click", function(e){
+      if (!e.target.closest(".xixi-search")) {
+        searchHint.classList.remove("xixi-open");
+      }
+    });
+  }
+
+  /* ---------- 点赞 ---------- */
+  d.addEventListener("click", function(e){
+    var like = e.target.closest(".xixi-like");
+    if (!like) return;
+    var count = parseInt(like.getAttribute("data-count") || "0", 10);
+    var on = like.classList.toggle("xixi-on");
+    var now = on ? count + 1 : count;
+    like.setAttribute("data-count", String(count));
+    like.textContent = (on ? "♥ " : "♡ ") + formatNum(now);
+  });
+
+  function formatNum(n){
+    if (n >= 10000) return (n/10000).toFixed(1).replace(/\.0$/,"") + "万";
+    return String(n);
+  }
+
+  /* ---------- 收藏 ---------- */
+  d.addEventListener("click", function(e){
+    var fav = e.target.closest(".xixi-fav");
+    if (!fav) return;
+    var on = fav.classList.toggle("xixi-on");
+    fav.textContent = on ? "★ 已收藏" : "☆";
+    showToast(on ? "已加入收藏，可在个人中心查看" : "已取消收藏");
+  });
+
+  /* ---------- 复制链接 ---------- */
+  function copyText(text){
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function(){
+        showToast("链接已复制：" + text);
+      }).catch(function(){
+        fallbackCopy(text);
+      });
+    } else {
+      fallbackCopy(text);
+    }
+  }
+  function fallbackCopy(text){
+    var ta = d.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.left = "-9999px";
+    d.body.appendChild(ta);
+    ta.select();
+    try { d.execCommand("copy"); showToast("链接已复制：" + text); }
+    catch(err){ showToast("复制失败，请手动选择文本"); }
+    d.body.removeChild(ta);
+  }
+  d.addEventListener("click", function(e){
+    var btn = e.target.closest("[data-xixi-copy]");
+    if (!btn) return;
+    copyText(btn.getAttribute("data-xixi-copy"));
+  });
+
+  /* ---------- 弹窗 ---------- */
+  var modal = d.getElementById("xixi-modal");
+  var modalTitle = d.getElementById("xixi-modal-title");
+  var modalBody = d.getElementById("xixi-modal-body");
+  var modalClose = d.getElementById("xixi-modal-close");
+
+  var modalContent = {
+    play: {
+      title: "正在播放 · 柔光之下",
+      html: "<p>这是一支关于光影与身体纹理的 4K 短片，时长 18 分 42 秒。点击播放将进入全屏观看模式，支持 1080P 与 4K 清晰度切换。</p><p style='margin-top:10px;color:#9ba2b3;font-size:12.5px;'>提示：本页为品牌官网演示页面，播放器为前端模拟交互。</p>"
+    },
+    submit: {
+      title: "投稿入口",
+      html: "<p>填写作品基础信息后提交，审核通常在 5 个工作日内完成。</p>" +
+            "<label class='xixi-field'>作品标题<input type='text' placeholder='例如：草叶与掌心'></label>" +
+            "<label class='xixi-field'>创作者昵称<input type='text' placeholder='你的名字'></label>" +
+            "<label class='xixi-field'>作品类型<select><option>自然影像</option><option>身体叙事</option><option>人物访谈</option><option>教程干货</option><option>日常记录</option></select></label>" +
+            "<label class='xixi-field'>作品简介<textarea rows='3' placeholder='用一两句话说明创作动机'></textarea></label>" +
+            "<div class='xixi-modal-foot'><button class='xixi-btn xixi-btn--sm xixi-btn--accent' type='button' id='xixi-fake-submit'>提交作品</button></div>"
+    },
+    contact: {
+      title: "联系与合作",
+      html: "<p>企业合作、内容共创、设备支持与公益传播均可通过以下方式联系：</p>" +
+            "<p style='margin-top:12px;'>商务合作：brand@xixi-video.example</p>" +
+            "<p>创作者支持：creator@xixi-video.example</p>" +
+            "<p>媒体联络：press@xixi-video.example</p>" +
+            "<p style='margin-top:10px;color:#9ba2b3;font-size:12.5px;'>工作时间内回复，通常不超过 3 个工作日。</p>"
+    },
+    feedback: {
+      title: "反馈建议",
+      html: "<label class='xixi-field'>反馈类型<select><option>内容质量</option><option>社区氛围</option><option>功能建议</option><option>版权问题</option></select></label>" +
+            "<label class='xixi-field'>详细描述<textarea rows='4' placeholder='请描述你遇到的问题或建议'></textarea></label>" +
+            "<div class='xixi-modal-foot'><button class='xixi-btn xixi-btn--sm xixi-btn--accent' type='button' id='xixi-fake-feedback'>提交反馈</button></div>"
+    }
+  };
+
+  function openModal(key){
+    if (!modal || !modalContent[key]) return;
+    modalTitle.textContent = modalContent[key].title;
+    modalBody.innerHTML = modalContent[key].html;
+    modal.classList.add("xixi-open");
+    d.body.style.overflow = "hidden";
+
+    var fakeSubmit = d.getElementById("xixi-fake-submit");
+    if (fakeSubmit) fakeSubmit.addEventListener("click", function(){
+      closeModal();
+      showToast("作品信息已提交，请留意站内通知");
+    });
+    var fakeFeedback = d.getElementById("xixi-fake-feedback");
+    if (fakeFeedback) fakeFeedback.addEventListener("click", function(){
+      closeModal();
+      showToast("反馈已收到，感谢你的建议");
+    });
+  }
+  function closeModal(){
+    if (!modal) return;
+    modal.classList.remove("xixi-open");
+    d.body.style.overflow = "";
+  }
+  d.addEventListener("click", function(e){
+    var trigger = e.target.closest("[data-xixi-open]");
+    if (trigger) {
+      openModal(trigger.getAttribute("data-xixi-open"));
+    }
+  });
+  if (modalClose) modalClose.addEventListener("click", closeModal);
+  if (modal) {
+    modal.addEventListener("click", function(e){
+      if (e.target === modal) closeModal();
+    });
+  }
+  d.addEventListener("keydown", function(e){
+    if (e.key === "Escape") closeModal();
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = d.getElementById("xixi-top");
+  function onScroll(){
+    if (!topBtn) return;
+    if (window.scrollY > 520) topBtn.classList.add("xixi-show");
+    else topBtn.classList.remove("xixi-show");
+  }
+  window.addEventListener("scroll", onScroll, {passive:true});
+  onScroll();
+  if (topBtn) topBtn.addEventListener("click", function(){
+    window.scrollTo({top:0, behavior:"smooth"});
+  });
+
+  /* ---------- 导航平滑锚点（预留吸顶高度） ---------- */
+  d.addEventListener("click", function(e){
+    var link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+    var id = link.getAttribute("href");
+    if (!id || id === "#") return;
+    var target = d.querySelector(id);
+    if (!target) return;
+    e.preventDefault();
+    var sticky = d.getElementById("xixi-sticky");
+    var offset = sticky ? sticky.getBoundingClientRect().height + 12 : 150;
+    var y = target.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({top: Math.max(y, 0), behavior:"smooth"});
+  });
+
+  /* ---------- 数字滚动（首屏数据） ---------- */
+  var statBolds = d.querySelectorAll(".xixi-stat b");
+  var statDone = false;
+  function animateStats(){
+    if (statDone) return;
+    statDone = true;
+    statBolds.forEach(function(el){
+      var raw = el.textContent;
+      var match = raw.match(/[\d.]+/);
+      if (!match) return;
+      var target = parseFloat(match[0]);
+      var suffix = raw.replace(match[0], "");
+      var start = 0;
+      var startTime = null;
+      var duration = 1200;
+      function step(ts){
+        if (!startTime) startTime = ts;
+        var p = Math.min((ts - startTime) / duration, 1);
+        var eased = 1 - Math.pow(1 - p, 3);
+        var val = target * eased;
+        if (target >= 1000) {
+          el.textContent = Math.round(val).toLocaleString("en-US") + suffix;
+        } else {
+          el.textContent = val.toFixed(1).replace(/\.0$/,"") + suffix;
+        }
+        if (p < 1) requestAnimationFrame(step);
+        else el.textContent = raw;
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if ("IntersectionObserver" in window && statBolds.length) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          animateStats();
+          io.disconnect();
+        }
+      });
+    }, {threshold: 0.4});
+    var statBox = d.querySelector(".xixi-stats");
+    if (statBox) io.observe(statBox);
+  }
+})();
+</script>
+</body>
+                                          </html>
